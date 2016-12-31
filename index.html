@@ -1,0 +1,244 @@
+---
+title: Home
+---
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <title>{{ site.title }}</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!--[if lte IE 8]>
+  <script src="{{ site.baseurl }}public/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/main.css"/>
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/ie8.css"/><![endif]-->
+  <!--[if lte IE 9]>
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/ie9.css"/><![endif]-->
+  <style>
+    q {
+      quotes: "“" "”" "‘" "’";
+      color: darkblue;
+    }
+    q:before {
+      content: open-quote;
+    }
+    q:after {
+      content: close-quote;
+    }
+  </style>
+</head>
+<body>
+  <!-- Nav -->
+  <nav id="nav">
+    <ul class="container">
+      <li><a href="#top">關於我</a></li>
+      <li><a href="#work">工具和技術</a></li>
+      <li><a href="#portfolio">設計過的網站</a></li>
+      <li><a href="#contact">作品專欄</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <div class="wrapper style1 first">
+    <article class="container" id="top">
+      <div class="row">
+        <div class="4u 12u(mobile)">
+          <span class="image fit"><img src="{{ site.baseurl }}public/images/pic00.jpg" alt=""/></span>
+        </div>
+        <div class="8u 12u(mobile)">
+          <header>
+            <h1>Hi. 我是 <strong>Selina Cheng</strong>.</h1>
+          </header>
+          <p>
+            我的中文名字叫<strong>鄭淑萍</strong><br>
+            畢業於<q>嶺東科技大學視覺傳達設計系</q><br>
+            目前任職於<q>精誠資訊</q><br>
+            在網頁設計領域至今約有十年的工作經驗，<br>
+            喜歡美食、旅行、和日本文化及點點滴滴。<br>
+            細心和有實務經驗，喜歡學習。
+          </p>
+          <a href="#work" class="button big scrolly">日常使用的工具和技術</a>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <!-- Work -->
+  <div class="wrapper style2">
+    <article id="work">
+      <header>
+        <h2>這是我日常使用的工具和技術</h2>
+        <p>
+          使用： HTML、Flash、Adobe Photoshop、Illustrator<br>
+          擅長：網頁編輯、繪圖設計以及動畫製作
+        </p>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="4u 12u(mobile)">
+            <section class="box style1">
+              <span class="icon featured fa-html5"></span>
+              <h3>HTML5</h3>
+              <p></p>
+            </section>
+          </div>
+          <div class="4u 12u(mobile)">
+            <section class="box style1">
+              <span class="icon featured fa-css3"></span>
+              <h3>CSS3</h3>
+              <p></p>
+            </section>
+          </div>
+          <div class="4u 12u(mobile)">
+            <section class="box style1">
+              <span class="icon featured fa-bold"></span>
+              <h3>Bootstrap</h3>
+              <p></p>
+            </section>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p style="color: darkred;">Stay hungry. Stay foolish.</p>
+        <a href="#portfolio" class="button big scrolly">參與設計過的網站</a>
+      </footer>
+    </article>
+  </div>
+
+  <!-- Portfolio -->
+  <div class="wrapper style3">
+    <article id="portfolio">
+      <header>
+        <h2>參與設計過的網站</h2>
+        <p>任職的部門專注於製作政府機關的入口網站</p>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="4u 12u(mobile)">
+            <article class="box style2">
+              <a href="http://icity.hccg.gov.tw/icity/ch/index.jsp" class="image featured" target="_blank">
+                <img src="{{ site.baseurl }}public/images/pic01.jpg" alt=""/>
+              </a>
+              <h3><a href="http://icity.hccg.gov.tw/icity/ch/index.jsp" target="_blank">新竹市政府智慧城市主題網</a></h3>
+              <p></p>
+            </article>
+          </div>
+          <div class="4u 12u(mobile)">
+            <article class="box style2">
+              <a href="http://eoc.hccg.gov.tw/" class="image featured" target="_blank">
+                <img src="{{ site.baseurl }}public/images/pic02.jpg" alt=""/>
+              </a>
+              <h3><a href="http://eoc.hccg.gov.tw/" target="_blank">新竹市政府防災主題網</a></h3>
+              <p></p>
+            </article>
+          </div>
+          <div class="4u 12u(mobile)">
+            <article class="box style2">
+              <a href="http://dep-s-district.hccg.gov.tw/s-district/ch/index.jsp" class="image featured" target="_blank">
+                <img src="{{ site.baseurl }}public/images/pic03.jpg" alt=""/>
+              </a>
+              <h3><a href="http://dep-s-district.hccg.gov.tw/s-district/ch/index.jsp" target="_blank">新竹市政府香山公所</a></h3>
+              <p></p>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="4u 12u(mobile)">
+            <article class="box style2">
+              <a href="http://dep-publicwork.hccg.gov.tw/publicwork/ch/index.jsp" class="image featured" target="_blank">
+                <img src="{{ site.baseurl }}public/images/pic04.jpg" alt=""/>
+              </a>
+              <h3><a href="http://dep-publicwork.hccg.gov.tw/publicwork/ch/index.jsp" target="_blank">新竹市政府工務處</a></h3>
+              <p></p>
+            </article>
+          </div>
+          <div class="4u 12u(mobile)">
+            <article class="box style2">
+              <a href="http://dvpc.tycg.gov.tw/" class="image featured" target="_blank"><img src="{{ site.baseurl }}public/images/pic05.jpg" alt=""/></a>
+              <h3><a href="http://dvpc.tycg.gov.tw/" target="_blank">桃園家防中心</a></h3>
+              <p></p>
+            </article>
+          </div>
+          <div class="4u 12u(mobile)">
+            <article class="box style2">
+              <a href="http://www.dayuan-phc.tycg.gov.tw/index.jsp" class="image featured" target="_blank"><img src="{{ site.baseurl }}public/images/pic06.jpg" alt=""/></a>
+              <h3><a href="http://www.dayuan-phc.tycg.gov.tw/index.jsp" target="_blank">桃園大園衛生所</a></h3>
+              <p></p>
+            </article>
+          </div>
+          <div class="4u 12u(mobile)">
+            <article class="box style2">
+              <a href="http://ohd.tycg.gov.tw/" class="image featured" target="_blank"><img src="{{ site.baseurl }}public/images/pic07.jpg" alt=""/></a>
+              <h3><a href="http://ohd.tycg.gov.tw/" target="_blank">桃園市政府住宅發展處</a></h3>
+              <p></p>
+            </article>
+          </div>
+          <div class="4u 12u(mobile)">
+            <article class="box style2">
+              <a href="http://oes.tycg.gov.tw/" class="image featured" target="_blank"><img src="{{ site.baseurl }}public/images/pic08.jpg" alt=""/></a>
+              <h3><a href="http://oes.tycg.gov.tw/" target="_blank">桃園市政府就業服務處</a></h3>
+              <p></p>
+            </article>
+          </div>
+          <div class="4u 12u(mobile)">
+            <article class="box style2">
+              <a href="http://gab.tycg.gov.tw/" class="image featured" target="_blank"><img src="{{ site.baseurl }}public/images/pic09.jpg" alt=""/></a>
+              <h3><a href="http://gab.tycg.gov.tw/" target="_blank">桃園市政府秘書處</a></h3>
+              <p></p>
+            </article>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p style="color: darkred;">千里之行始於足下，凡走過必留下痕跡</p>
+        <a href="#contact" class="button big scrolly">作品專欄</a>
+      </footer>
+    </article>
+  </div>
+
+  <!-- Contact -->
+  <div class="wrapper style4">
+    <article id="contact" class="container 75%">
+      <header>
+        <h2>作品專欄</h2>
+        <p></p>
+      </header>
+      <div>
+        <div class="row">
+          <div class="12u">
+            <ul class="actions">
+              <li><button class="alt" data-href="https://drive.google.com/open?id=0B_-aoIEf-d3PcXVPalYteHduY3c">網頁</button></li>
+              <li><button class="alt" data-href="https://drive.google.com/open?id=0B_-aoIEf-d3PSEJxT2hTc1I2WjQ">平面</button></li>
+              <li><button class="alt" data-href="https://drive.google.com/open?id=0B_-aoIEf-d3PQnpLdVF0VnRaWFk">動畫</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <ul id="copyright">
+          <li>&copy; Selina Cheng. All rights reserved.</li>
+        </ul>
+      </footer>
+    </article>
+  </div>
+
+  <!-- Scripts -->
+  <script src="{{ site.baseurl }}public/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}public/js/jquery.scrolly.min.js"></script>
+  <script src="{{ site.baseurl }}public/js/skel.min.js"></script>
+  <script src="{{ site.baseurl }}public/js/skel-viewport.min.js"></script>
+  <script src="{{ site.baseurl }}public/js/util.js"></script>
+  <!--[if lte IE 8]>
+  <script src="{{ site.baseurl }}public/js/ie/respond.min.js"></script><![endif]-->
+  <script src="{{ site.baseurl }}public/js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("button.alt").on("click", function (e) {
+        var target = $(this).data('href');
+        window.open(target, "_blank");
+        return false;
+      });
+    });
+  </script>
+</body>
+</html>
